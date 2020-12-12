@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Thymeleaf Web Application</title>
+</head>
+<body>
+<div class="topnav">
+    <a class="active" href="${home.java}">Home</a>
+    <a href="${about.java}">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#packages">Packages</a>
+    <a href="#packages">Packages</a>
+    <a href="#signup">Login/SignUp</a>
+
+</div>
+
+<h1>Welcome to Spring Boot Thymeleaf</h1>
+<p>
+    Ca ben mire! <th:block th:text="${message}">message</th:block>
+</p>
+</body>
+</html>
